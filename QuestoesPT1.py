@@ -53,3 +53,28 @@ if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
     print(f'O ano {ano} é BISSEXTO')
 else:
     print(f'O ano {ano} NÃO É BISSEXTO')
+
+
+a = int(input('Primeiro valor: '))
+b = int(input('Primeiro valor: '))
+c = int(input('Primeiro valor: '))
+if a<b and a<c:
+    menor = a
+if b<c and b<a:
+    menor = b
+if c<a and c<b:
+    menor = c
+if a>b and a>c:
+    maior = a
+if b>a and b>c:
+    maior = b
+if c>a and c>b:
+    maior = c
+print(f'O menor valor digitado foi {menor} e o maior foi {maior}')
+
+salario = float(input('Qual o salario do funcionario? '))
+if salario <= 5000:
+    salario2 = (salario * 3/20) + salario
+if salario >= 5000:
+    salario2 = (salario * 1/10) + salario
+print(f'Quem ganhava {salario:.2f} passa a ganhar {salario2:.2f}')
