@@ -33,3 +33,4 @@ n3= str(input('Terceiro Aluno: '))
 lista = [n1, n2, n3]
 escolhido = random.choice(lista)
 print(f'O aluno escolhido foi {escolhido}')
+

@@ -3,7 +3,7 @@ import time
 from datetime import date
 
 nome = str(input('Qual seu nome? '))
-if nome == 'Pedro':
+if nome in ['João', 'Pedro']:
     print('Que nome lindo você tem!')
 else:
     print('Que nome comum esse seu né!?')
