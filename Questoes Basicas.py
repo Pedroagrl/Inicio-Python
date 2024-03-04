@@ -4,7 +4,7 @@ n2 = float(input('Digite a segunda nota: '))
 n3 = float(input('Digite a terceira nota: '))
 n4 = float(input('Digite a quarta nota: '))
 resultado = (n1 + n2 + n3 + n4)/4
-print(f'A média das notas ({n1:.0f}, {n2:.0f}, {n3:.0f}, {n4:.0f}) é {resultado}')
+print(f'A média das notas ({n1:.0f}, {n2:.0f}, {n3:.0f}, {n4:.0f}) é {resultado:.2f}')
 
 if resultado >= 7:
     print('\033[92mParabéns! Você foi aprovado\033[0m ')
